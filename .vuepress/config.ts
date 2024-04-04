@@ -15,6 +15,7 @@ export default defineUserConfig({
     docsBranch: 'main',
     docsDir: 'example',
     lastUpdatedText: '',
+    primaryColor: '#e56e23',
     // series 为原 sidebar
     series: {
       '/docs/theme-reco/': [

@@ -16,6 +16,8 @@ categories:
 
 此处放置 [Eslint](https://eslint.org/) 和 [Prettier](https://prettier.io/) 的官网地址。
 
+<img src="./assets/eslint-features-img-900w.webp" width="50%" alt="Eslint的特性"/>
+
 ## 1. Prettier 的使用
 
 Prettier 的本质作用就是格式化代码，没有其他的副作用。
