@@ -5,10 +5,10 @@ import recoTheme from 'vuepress-theme-reco';
 export default defineUserConfig({
   title: 'Winds Blog',
   description: '愿你所追寻的风，都能如期而至',
-  head: [['link', { rel: 'icon', href: '/avatar.webp' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
-    logo: '/avatar.webp',
+    logo: '/favicon.png',
     author: 'SeekWind',
     authorAvatar: '/avatar.webp',
     docsRepo: 'https://github.com/seekwindJH/seekwindjh.github.io',
@@ -40,6 +40,23 @@ export default defineUserConfig({
         ],
       },
     ],
+    commentConfig: {
+      type: 'giscus',
+      options: {
+        repo: 'seekwindJH/seekwindjh.github.io',
+        repoId: 'R_kgDOLpoBQg',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOLpoBQs4CedFE',
+        mapping: 'title',
+        strict: '1',
+        reactionsEnabled: '1',
+        emitMetadata: '1',
+        inputPosition: 'top',
+        theme: 'dark',
+        lang: 'zh-CN',
+        hideComments: false,
+      },
+    },
     // bulletin: {
     //   body: [
     //     {

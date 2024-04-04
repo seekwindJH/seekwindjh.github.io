@@ -6,7 +6,7 @@ modules:
   - MdContent
   - Footer
 bannerBrand:
-  bgImage: '/bg.svg'
+  bgImage: '/fall-guy-bg.jpg'
   title: Winds Blog
   description: 愿你所追寻的风，都能如期而至！
   # tagline: vuepress-theme-reco 2.0 继续坚持简洁的风格，所有功能开箱即用，首页模块化组装，使用 tailwindcss 书写样式，将 Vite 作为默认编译器。你只需要负责内容创作，其他请交给我。
