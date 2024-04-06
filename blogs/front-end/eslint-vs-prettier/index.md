@@ -147,7 +147,7 @@ module.exports = {
 其实在 vscode 中，Prettier 的作用不仅仅局限于前端相关的技术。对于每种文件都有一个插件，例如对于 Java 的插件是`dotdevru.prettier-java`，对于 SQL 的插件是`inferrinizzard.prettier-sql-vscode`。
 
 ::: tip
-推荐同时安装 Nodejs Prettier 依赖和 vscode 插件，前者能确保开发时及时纠正格式，后者用于在拉取请求时提供代码格式校验。
+推荐同时安装 vscode 插件和 Nodejs Prettier 依赖，前者能确保开发时及时纠正格式，后者用于在拉取请求时提供代码格式校验。
 :::
 
 ## 2. Eslint 的使用
