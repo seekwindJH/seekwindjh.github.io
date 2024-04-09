@@ -7,7 +7,7 @@ categories:
   - front-end
 ---
 
-![前端题库](https://vue3js.cn/interview/)
+[前端题库](https://vue3js.cn/interview/)
 
 ## 1. Js 基础
 
@@ -27,7 +27,7 @@ categories:
 
 ::: tip
 如果省略该参数或参数值为 0、-0、null、false、NaN、undefined，或空字符串（""），则该对象具有的初始值为 false。所有其他值，包括任何对象，空数组（[]）或字符串 "false"，都会创建一个初始值为 true 的对象。
---- ![MDN Boolean包装器](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+--- [MDN Boolean 包装器](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 :::
 
 ## 2. Vue
