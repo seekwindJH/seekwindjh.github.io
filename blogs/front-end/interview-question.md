@@ -7,7 +7,7 @@ categories:
   - front-end
 ---
 
-![前端题库](https://vue3js.cn/interview/vue/)
+![前端题库](https://vue3js.cn/interview/)
 
 ## 1. Js 基础
 
@@ -29,3 +29,18 @@ categories:
 如果省略该参数或参数值为 0、-0、null、false、NaN、undefined，或空字符串（""），则该对象具有的初始值为 false。所有其他值，包括任何对象，空数组（[]）或字符串 "false"，都会创建一个初始值为 true 的对象。
 --- ![MDN Boolean包装器](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 :::
+
+## 2. Vue
+
+### 1. 父子组件的加载顺序，从生命周期的角度描述
+
+参考[原博客](https://blog.csdn.net/leilei__66/article/details/118699960)。
+
+1. 父组件 beforeCreate
+2. 父组件 created
+3. 父组件 beforeMount
+4. 子组件 beforeCreate
+5. 子组件 created
+6. 子组件 beforeMount
+7. 父组件 mounted
+8. 子组件 mounted
